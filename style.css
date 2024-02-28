@@ -3,11 +3,13 @@ h1 {
     font-size: 60px;
     text-align: center;
     color: aliceblue;
+    border-bottom: 3px solid aliceblue; /* Adds a solid line to the bottom of the the object */
   }
 h2{
     font-size: 32px;
     text-align: center;
     color: antiquewhite;
+    font-weight: bold; /*Makes the characters inside bold*/
   }
   
 p,
