@@ -12,6 +12,21 @@ h2{
     font-weight: bold; /*Makes the characters inside bold*/
   }
 
+  .container {
+    height: 200px;
+    position: relative;
+    border: none;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
   .button {
     border: none;
     color: white;
@@ -20,7 +35,7 @@ h2{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 10px 5px;
+    margin: 20px 10px;
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 25px;
