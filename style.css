@@ -21,11 +21,30 @@ h2{
   }
 
 h4{
+    border-top: 3px aliceblue;
     font-size: 26px;
+    margin-top: 0px;
+    border-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 5px;
     color: antiquewhite;
     font-weight: bold; /*Makes the characters inside bold*/
   }
 
+hr{
+  height: 3px;
+  width: 100%;
+}
+  body{
+    min-height: 100vh; /*It means 100% of vissible of screen*/
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer{
+    
+    margin-top: auto;
+  }
 p{
     font-size: 20px;
     text-indent: 2px;
