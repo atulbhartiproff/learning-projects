@@ -1,6 +1,14 @@
+@font-face {
+  font-family: "Against";
+  src: url('fonts/against-regular.woff') format('woff'),
+       url('fonts/against\ regular.ttf') format('truetype');
+  
+}
 
 h1 {
-    font-size: 60px;
+    /*font-family: "kanit", Tahoma,  sans-serif;*/
+    font-family: "Against";
+    font-size: 50px;
     text-align: center;
     color: aliceblue;
     border-bottom: 3px solid aliceblue; /* Adds a solid line to the bottom of the the object */
@@ -12,7 +20,52 @@ h2{
     font-weight: bold; /*Makes the characters inside bold*/
   }
 
-  .container {
+h4{
+    font-size: 26px;
+    color: antiquewhite;
+    font-weight: bold; /*Makes the characters inside bold*/
+  }
+
+p{
+    font-size: 20px;
+    text-indent: 2px;
+    text-transform: capitalize;
+    text-shadow: #008CBA;
+    text-underline-position: inherit;
+    color: white;
+    font-weight: bold; /*Makes the characters inside bold*/
+  }
+
+a:link{
+  text-indent: 2px;
+  color: rgb(7, 139, 172);
+  text-decoration:none;
+}
+
+a:visited{
+  text-indent: 2px;
+  color: rgb(175, 11, 240);
+  text-decoration: dotted;
+}
+
+a:hover{
+  text-indent: 2px;
+  color: lightgreen;
+  text-decoration: underline;
+}
+
+a:active{
+  text-indent: 2px;
+  color: aliceblue;
+  text-decoration: rgb(4, 68, 105);
+}
+a:link,a:visited,a:hover,a:active{
+  padding: 5px 5px;
+  text-align: center;
+  text-indent: 10%; 
+}
+
+.container {
     height: 200px;
     position: relative;
     border: none;
@@ -63,7 +116,7 @@ background-color: lavender;
 color: white;
 }
 
-p,
+
 li{
     font-size: 16px;
     line-height: 2;
